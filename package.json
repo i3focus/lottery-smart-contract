@@ -1,0 +1,34 @@
+{
+  "name": "lottery-smart-contract",
+  "version": "1.0.0",
+  "description": "Lottery Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "verify": "npx hardhat run scripts/verify.ts --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i3focus/lottery-smart-contract.git"
+  },
+  "keywords": [
+    "lottery",
+    "smart-contract",
+    "web3"
+  ],
+  "author": "jether@i3focus.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i3focus/lottery-smart-contract/issues"
+  },
+  "homepage": "https://github.com/i3focus/lottery-smart-contract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
